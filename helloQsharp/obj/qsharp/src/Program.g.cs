@@ -14,16 +14,19 @@ using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Intrinsic.Interfaces;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"helloQsharp\",\"Name\":\"SayHello\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":7,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"helloQsharp\",\"Name\":\"SayHello\"},\"Attributes\":[],\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":8,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"helloQsharp\",\"Name\":\"rotateWithControlledPhase\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":95,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":36}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"helloQsharp\",\"Name\":\"rotateWithControlledPhase\"},\"Attributes\":[],\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":95,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":36}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"helloQsharp\",\"Name\":\"useCCNot\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":110,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"helloQsharp\",\"Name\":\"useCCNot\"},\"Attributes\":[],\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":110,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"helloQsharp\",\"Name\":\"SayHello\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":9,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":10,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"helloQsharp\",\"Name\":\"SayHello\"},\"Attributes\":[],\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":10,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"helloQsharp\",\"Name\":\"PrepareBellState\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":129,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":27}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":29},\"Item2\":{\"Line\":1,\"Column\":31}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":43}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"helloQsharp\",\"Name\":\"PrepareBellState\"},\"Attributes\":[],\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":129,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":27}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"helloQsharp\",\"Name\":\"PrepareBellState\"},\"Attributes\":[],\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":129,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":63},\"Item2\":{\"Line\":1,\"Column\":66}},\"Documentation\":[\"automatically generated QsAdjoint specialization for helloQsharp.PrepareBellState\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"helloQsharp\",\"Name\":\"MeasureBellBasis\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":135,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":27}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":29},\"Item2\":{\"Line\":1,\"Column\":31}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q2\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":43}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Result\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"helloQsharp\",\"Name\":\"MeasureBellBasis\"},\"Attributes\":[],\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":135,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":27}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"helloQsharp\",\"Name\":\"TeleportAndVerify\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":142,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"helloQsharp\",\"Name\":\"TeleportAndVerify\"},\"Attributes\":[],\"SourceFile\":\"/workspaces/QuantumComputingProjects/helloQsharp/Program.qs\",\"Position\":{\"Item1\":142,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":28}},\"Documentation\":[]}")]
 #line hidden
 namespace helloQsharp
 {
-    [SourceLocation("/workspaces/QuantumComputingProjects/helloQsharp/Program.qs", OperationFunctor.Body, 9, 96)]
+    [SourceLocation("/workspaces/QuantumComputingProjects/helloQsharp/Program.qs", OperationFunctor.Body, 11, 130)]
     public partial class SayHello : Operation<QVoid, QVoid>, ICallable
     {
         public SayHello(IOperationFactory m) : base(m)
@@ -33,19 +36,7 @@ namespace helloQsharp
         String ICallable.Name => "SayHello";
         String ICallable.FullName => "helloQsharp.SayHello";
         public static EntryPointInfo<QVoid, QVoid> Info => new EntryPointInfo<QVoid, QVoid>(typeof(SayHello));
-        protected ICallable<String, QVoid> Message__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<QVoid, QVoid> rotateWithControlledPhase__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<QVoid, QVoid> useCCNot__
+        protected ICallable<QVoid, QVoid> TeleportAndVerify__
         {
             get;
             set;
@@ -53,12 +44,8 @@ namespace helloQsharp
 
         public override Func<QVoid, QVoid> __Body__ => (__in__) =>
         {
-#line 10 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-            Message__.Apply("Hello quantum world!");
-#line 16 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-            rotateWithControlledPhase__.Apply(QVoid.Instance);
-#line 17 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-            useCCNot__.Apply(QVoid.Instance);
+#line 20 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+            TeleportAndVerify__.Apply(QVoid.Instance);
 #line hidden
             return QVoid.Instance;
         }
@@ -66,9 +53,7 @@ namespace helloQsharp
         ;
         public override void __Init__()
         {
-            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
-            this.rotateWithControlledPhase__ = this.__Factory__.Get<ICallable<QVoid, QVoid>>(typeof(rotateWithControlledPhase));
-            this.useCCNot__ = this.__Factory__.Get<ICallable<QVoid, QVoid>>(typeof(useCCNot));
+            this.TeleportAndVerify__ = this.__Factory__.Get<ICallable<QVoid, QVoid>>(typeof(TeleportAndVerify));
         }
 
         public override IApplyData __DataIn__(QVoid data) => data;
@@ -79,99 +64,63 @@ namespace helloQsharp
         }
     }
 
-    [SourceLocation("/workspaces/QuantumComputingProjects/helloQsharp/Program.qs", OperationFunctor.Body, 96, 111)]
-    public partial class rotateWithControlledPhase : Operation<QVoid, QVoid>, ICallable
+    [SourceLocation("/workspaces/QuantumComputingProjects/helloQsharp/Program.qs", OperationFunctor.Body, 130, 136)]
+    [SourceLocation("/workspaces/QuantumComputingProjects/helloQsharp/Program.qs", OperationFunctor.Adjoint, 130, 136)]
+    public partial class PrepareBellState : Adjointable<(Qubit,Qubit)>, ICallable
     {
-        public rotateWithControlledPhase(IOperationFactory m) : base(m)
+        public PrepareBellState(IOperationFactory m) : base(m)
         {
         }
 
-        String ICallable.Name => "rotateWithControlledPhase";
-        String ICallable.FullName => "helloQsharp.rotateWithControlledPhase";
-        protected Allocate Allocate__
+        public class In : QTuple<(Qubit,Qubit)>, IApplyData
         {
-            get;
-            set;
+            public In((Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                }
+            }
         }
 
-        protected Release Release__
-        {
-            get;
-            set;
-        }
-
+        String ICallable.Name => "PrepareBellState";
+        String ICallable.FullName => "helloQsharp.PrepareBellState";
         protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
         {
             get;
             set;
         }
 
-        protected ICallable<QVoid, Double> Microsoft__Quantum__Math__PI
+        protected IUnitary<(Qubit,Qubit)> Microsoft__Quantum__Intrinsic__CNOT
         {
             get;
             set;
         }
 
-        protected IUnitary<(Double,Qubit)> R1__
+        public override Func<(Qubit,Qubit), QVoid> __Body__ => (__in__) =>
         {
-            get;
-            set;
+            var (q1,q2) = __in__;
+#line 131 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+            Microsoft__Quantum__Intrinsic__H.Apply(q1);
+#line 132 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+            Microsoft__Quantum__Intrinsic__CNOT.Apply((q1, q2));
+#line hidden
+            return QVoid.Instance;
         }
 
-        protected ICallable Microsoft__Quantum__Diagnostics__DumpMachine
+        ;
+        public override Func<(Qubit,Qubit), QVoid> __AdjointBody__ => (__in__) =>
         {
-            get;
-            set;
-        }
-
-        protected ICallable<IQArray<Qubit>, QVoid> ResetAll__
-        {
-            get;
-            set;
-        }
-
-        public override Func<QVoid, QVoid> __Body__ => (__in__) =>
-        {
-#line hidden
-            {
-#line 98 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                var qs = Allocate__.Apply(3L);
-#line hidden
-                bool __arg1__ = true;
-                try
-                {
-#line 100 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    Microsoft__Quantum__Intrinsic__H.Apply(qs[0L]);
-#line 101 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    Microsoft__Quantum__Intrinsic__H.Apply(qs[1L]);
-#line 102 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    Microsoft__Quantum__Intrinsic__H.Apply(qs[2L]);
-#line 104 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    var theta = (Microsoft__Quantum__Math__PI.Apply(QVoid.Instance) / 4D);
-#line 105 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    R1__.Controlled.Apply((new QArray<Qubit>(qs[0L]), (theta, qs[2L])));
-#line 107 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
-#line 108 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    ResetAll__.Apply(qs);
-                }
-#line hidden
-                catch
-                {
-                    __arg1__ = false;
-                    throw;
-                }
-#line hidden
-                finally
-                {
-                    if (__arg1__)
-                    {
-#line hidden
-                        Release__.Apply(qs);
-                    }
-                }
-            }
-
+            var (q1,q2) = __in__;
+#line 130 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+            Microsoft__Quantum__Intrinsic__CNOT.Adjoint.Apply((q1, q2));
+#line 130 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+            Microsoft__Quantum__Intrinsic__H.Adjoint.Apply(q1);
 #line hidden
             return QVoid.Instance;
         }
@@ -179,38 +128,97 @@ namespace helloQsharp
         ;
         public override void __Init__()
         {
-            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
-            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
             this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
-            this.Microsoft__Quantum__Math__PI = this.__Factory__.Get<ICallable<QVoid, Double>>(typeof(global::Microsoft.Quantum.Math.PI));
-            this.R1__ = this.__Factory__.Get<IUnitary<(Double,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.R1));
-            this.Microsoft__Quantum__Diagnostics__DumpMachine = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Diagnostics.DumpMachine<>));
-            this.ResetAll__ = this.__Factory__.Get<ICallable<IQArray<Qubit>, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.ResetAll));
+            this.Microsoft__Quantum__Intrinsic__CNOT = this.__Factory__.Get<IUnitary<(Qubit,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.CNOT));
         }
 
-        public override IApplyData __DataIn__(QVoid data) => data;
+        public override IApplyData __DataIn__((Qubit,Qubit) data) => new In(data);
         public override IApplyData __DataOut__(QVoid data) => data;
-        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__, Qubit q1, Qubit q2)
         {
-            return __m__.Run<rotateWithControlledPhase, QVoid, QVoid>(QVoid.Instance);
+            return __m__.Run<PrepareBellState, (Qubit,Qubit), QVoid>((q1, q2));
         }
     }
 
-    [SourceLocation("/workspaces/QuantumComputingProjects/helloQsharp/Program.qs", OperationFunctor.Body, 111, -1)]
-    public partial class useCCNot : Operation<QVoid, QVoid>, ICallable
+    [SourceLocation("/workspaces/QuantumComputingProjects/helloQsharp/Program.qs", OperationFunctor.Body, 136, 143)]
+    public partial class MeasureBellBasis : Operation<(Qubit,Qubit), (Result,Result)>, ICallable
     {
-        public useCCNot(IOperationFactory m) : base(m)
+        public MeasureBellBasis(IOperationFactory m) : base(m)
         {
         }
 
-        String ICallable.Name => "useCCNot";
-        String ICallable.FullName => "helloQsharp.useCCNot";
-        protected ICallable<String, QVoid> Message__
+        public class In : QTuple<(Qubit,Qubit)>, IApplyData
+        {
+            public In((Qubit,Qubit) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits
+            {
+                get
+                {
+                    yield return Data.Item1;
+                    yield return Data.Item2;
+                }
+            }
+        }
+
+        public class Out : QTuple<(Result,Result)>, IApplyData
+        {
+            public Out((Result,Result) data) : base(data)
+            {
+            }
+
+            System.Collections.Generic.IEnumerable<Qubit> IApplyData.Qubits => null;
+        }
+
+        String ICallable.Name => "MeasureBellBasis";
+        String ICallable.FullName => "helloQsharp.MeasureBellBasis";
+        protected IAdjointable<(Qubit,Qubit)> PrepareBellState__
         {
             get;
             set;
         }
 
+        protected ICallable<Qubit, Result> Microsoft__Quantum__Measurement__MResetZ
+        {
+            get;
+            set;
+        }
+
+        public override Func<(Qubit,Qubit), (Result,Result)> __Body__ => (__in__) =>
+        {
+            var (q1,q2) = __in__;
+#line 138 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+            PrepareBellState__.Adjoint.Apply((q1, q2));
+#line 140 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+            return (Microsoft__Quantum__Measurement__MResetZ.Apply(q1), Microsoft__Quantum__Measurement__MResetZ.Apply(q2));
+        }
+
+        ;
+        public override void __Init__()
+        {
+            this.PrepareBellState__ = this.__Factory__.Get<IAdjointable<(Qubit,Qubit)>>(typeof(PrepareBellState));
+            this.Microsoft__Quantum__Measurement__MResetZ = this.__Factory__.Get<ICallable<Qubit, Result>>(typeof(global::Microsoft.Quantum.Measurement.MResetZ));
+        }
+
+        public override IApplyData __DataIn__((Qubit,Qubit) data) => new In(data);
+        public override IApplyData __DataOut__((Result,Result) data) => new Out(data);
+        public static System.Threading.Tasks.Task<(Result,Result)> Run(IOperationFactory __m__, Qubit q1, Qubit q2)
+        {
+            return __m__.Run<MeasureBellBasis, (Qubit,Qubit), (Result,Result)>((q1, q2));
+        }
+    }
+
+    [SourceLocation("/workspaces/QuantumComputingProjects/helloQsharp/Program.qs", OperationFunctor.Body, 143, -1)]
+    public partial class TeleportAndVerify : Operation<QVoid, QVoid>, ICallable
+    {
+        public TeleportAndVerify(IOperationFactory m) : base(m)
+        {
+        }
+
+        String ICallable.Name => "TeleportAndVerify";
+        String ICallable.FullName => "helloQsharp.TeleportAndVerify";
         protected Allocate Allocate__
         {
             get;
@@ -218,6 +226,36 @@ namespace helloQsharp
         }
 
         protected Release Release__
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Double,Qubit)> Microsoft__Quantum__Intrinsic__Ry
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<String, QVoid> Message__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable Microsoft__Quantum__Diagnostics__DumpRegister
+        {
+            get;
+            set;
+        }
+
+        protected IAdjointable<(Qubit,Qubit)> PrepareBellState__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<(Qubit,Qubit), (Result,Result)> MeasureBellBasis__
         {
             get;
             set;
@@ -229,19 +267,7 @@ namespace helloQsharp
             set;
         }
 
-        protected IUnitary<(Qubit,Qubit,Qubit)> CCNOT__
-        {
-            get;
-            set;
-        }
-
-        protected ICallable Microsoft__Quantum__Diagnostics__DumpMachine
-        {
-            get;
-            set;
-        }
-
-        protected ICallable<IQArray<Qubit>, QVoid> ResetAll__
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__Z
         {
             get;
             set;
@@ -249,26 +275,58 @@ namespace helloQsharp
 
         public override Func<QVoid, QVoid> __Body__ => (__in__) =>
         {
-#line 112 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-            Message__.Apply("entered ccnot!");
 #line hidden
             {
-#line 113 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                var qs = Allocate__.Apply(3L);
+#line 145 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                var (aliceEPR,bobEPR,data) = (Allocate__.Apply(), Allocate__.Apply(), Allocate__.Apply());
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 115 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    Microsoft__Quantum__Intrinsic__X.Apply(qs[0L]);
-#line 116 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    Microsoft__Quantum__Intrinsic__X.Apply(qs[2L]);
-#line 117 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    CCNOT__.Apply((qs[0L], qs[2L], qs[1L]));
-#line 119 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    Microsoft__Quantum__Diagnostics__DumpMachine.Apply(QVoid.Instance);
-#line 121 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
-                    ResetAll__.Apply(qs);
+#line 147 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Microsoft__Quantum__Intrinsic__Ry.Apply((1D, data));
+#line 148 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Message__.Apply("The state to be teleported:");
+#line 149 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpRegister.Apply((QVoid.Instance, new QArray<Qubit>(data)));
+#line 152 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    PrepareBellState__.Apply((aliceEPR, bobEPR));
+#line 155 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    var message = MeasureBellBasis__.Apply((data, aliceEPR));
+#line 160 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Message__.Apply("");
+#line 161 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Message__.Apply(String.Format("Measurement results: {0}", message));
+#line 162 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Message__.Apply("");
+#line 163 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Message__.Apply("The state of Bob's qubit after Alice's measurement");
+#line 164 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpRegister.Apply((QVoid.Instance, new QArray<Qubit>(bobEPR)));
+#line 167 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    var (fix1,fix2) = message;
+#line 168 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    if ((fix2 == Result.One))
+                    {
+#line 169 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                        Microsoft__Quantum__Intrinsic__X.Apply(bobEPR);
+                    }
+
+#line 171 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    if ((fix1 == Result.One))
+                    {
+#line 172 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                        Microsoft__Quantum__Intrinsic__Z.Apply(bobEPR);
+                    }
+
+#line 176 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Message__.Apply("");
+#line 177 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Message__.Apply("Teleportation result (the state of Bob's qubit)");
+#line 178 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Microsoft__Quantum__Diagnostics__DumpRegister.Apply((QVoid.Instance, new QArray<Qubit>(bobEPR)));
+#line 181 "/workspaces/QuantumComputingProjects/helloQsharp/Program.qs"
+                    Microsoft__Quantum__Intrinsic__Ry.Adjoint.Apply((1D, bobEPR));
                 }
 #line hidden
                 catch
@@ -282,7 +340,11 @@ namespace helloQsharp
                     if (__arg1__)
                     {
 #line hidden
-                        Release__.Apply(qs);
+                        Release__.Apply(aliceEPR);
+#line hidden
+                        Release__.Apply(bobEPR);
+#line hidden
+                        Release__.Apply(data);
                     }
                 }
             }
@@ -294,20 +356,22 @@ namespace helloQsharp
         ;
         public override void __Init__()
         {
-            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
             this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
             this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
+            this.Microsoft__Quantum__Intrinsic__Ry = this.__Factory__.Get<IUnitary<(Double,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.Ry));
+            this.Message__ = this.__Factory__.Get<ICallable<String, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.Message));
+            this.Microsoft__Quantum__Diagnostics__DumpRegister = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Diagnostics.DumpRegister<>));
+            this.PrepareBellState__ = this.__Factory__.Get<IAdjointable<(Qubit,Qubit)>>(typeof(PrepareBellState));
+            this.MeasureBellBasis__ = this.__Factory__.Get<ICallable<(Qubit,Qubit), (Result,Result)>>(typeof(MeasureBellBasis));
             this.Microsoft__Quantum__Intrinsic__X = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.X));
-            this.CCNOT__ = this.__Factory__.Get<IUnitary<(Qubit,Qubit,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.CCNOT));
-            this.Microsoft__Quantum__Diagnostics__DumpMachine = this.__Factory__.Get<ICallable>(typeof(global::Microsoft.Quantum.Diagnostics.DumpMachine<>));
-            this.ResetAll__ = this.__Factory__.Get<ICallable<IQArray<Qubit>, QVoid>>(typeof(global::Microsoft.Quantum.Intrinsic.ResetAll));
+            this.Microsoft__Quantum__Intrinsic__Z = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.Z));
         }
 
         public override IApplyData __DataIn__(QVoid data) => data;
         public override IApplyData __DataOut__(QVoid data) => data;
         public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
         {
-            return __m__.Run<useCCNot, QVoid, QVoid>(QVoid.Instance);
+            return __m__.Run<TeleportAndVerify, QVoid, QVoid>(QVoid.Instance);
         }
     }
 }
